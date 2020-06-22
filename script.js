@@ -15,30 +15,30 @@ function calculate (){
 	else if (ops1=="-") a = -document.getElementById("first").text;
 	if (ops2 =="+"){
 	
-	res += (a+b);
+	res = (a+b);
 }
 	else if (ops2 =="-"){
 	b = +document.getElementById("second").text;
-	res += (a-b);
+	res = (a-b);
 }
 
 
 	else if (ops2 =="/"){
 	if (b!=0)
-	res += (a/b);
+	res = (a/b);
 	else {alert ("Нельзя делить на 0");}
 	}
 
 	else if (ops2 =="*"){
 	b = +document.getElementById("second").text;
-	res += (a*b);
+	res = (a*b);
 	}
 
 	if (ops3 =="+"){
-	res += (res+c);
+	res = (res+c);
 }
 	else if (ops3 =="-"){
-	res += (res-c);
+	res = (res-c);
 }
 
 
@@ -50,7 +50,7 @@ function calculate (){
 
 	else if (ops3 =="*"){
 	
-	res += (res*c);
+	res = (res*c);
 	}
 
 	document.getElementById("result").text = res+"";
