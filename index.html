@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<form>
+
+	<h2>calculate</h2>   
+	<table>
+<tr>
+	<td>
+	<label>a:</label>
+	</td>
+	<td><select name="operationList1" id="opList1" onchange="changeColor()">
+					<option name ="plus" value="+" selected="true">+</option>
+					<option name ="minus" value="-">-</option>
+	</select></td>
+	</tr>
+<tr>
+	<td><input id ="first" type="text"></td>
+</tr>	
+<tr>
+	<td>
+	<label>b:</label>
+	</td>
+	<td><select name="operationList2" id="opList2" onchange="changeColor()">
+					<option name ="plus" value="+" selected="true">+</option>
+					<option name ="minus" value="-">-</option>
+					<option name ="div" value="/">/</option>
+					<option name ="umn" value="*">*</option>
+	</select></td>
+	</tr>
+<tr>
+	<td><input id ="second" type="text"></td>
+</tr>
+	<tr>
+		
+	<td><label>c:</label></td>
+		<td><select name="operationList3" id="opList3" onchange="changeColor()">
+					<option name ="plus" value="+" selected="true">+</option>
+					<option name ="minus" value="-">-</option>
+					<option name ="div" value="/">/</option>
+					<option name ="umn" value="*">*</option>
+	</select></td>
+	</tr>
+	<tr>
+	<td><input id ="third" type="text"></td>
+	</tr>
+	
+
+	<tr>
+	<td><label>result</label></td>
+	<td><input id ="result" type="text"></td>
+	</tr>
+
+	<tr><td><button>Clear</button></td>
+		<td><button>Calculate</button></td>
+	</tr>
+	</table>
+</form>
+</body>
+</html>
