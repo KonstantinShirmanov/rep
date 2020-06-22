@@ -11,9 +11,9 @@ function calculate (){
 	var ops2 = document.getElementById("opList2").options[document.getElementById("opList2").options.selectedIndex].text;
 	var ops3 = document.getElementById("opList3").options[document.getElementById("opList3").options.selectedIndex].text;
 
-	var a = Number.parse(astr);
-	var b = Number.parse(bstr);
-	var c = Number.parse(cstr);
+	var a = Number.parseDouble(astr);
+	var b = Number.parseDouble(bstr);
+	var c = Number.parseDouble(cstr);
 
 	console.log()
 	var res = 0;
