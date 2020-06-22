@@ -3,9 +3,9 @@ function calculate(){
 	var b = +document.getElementById("second").text;
 	var c = +document.getElementById("third").text;
 	var ops = document.getElementByTegName("operation");
-	var ops1 = document.getElementById("opList1").text;
-	var ops2 = document.getElementById("opList2").text;
-	var ops2 = document.getElementById("opList2").text;
+	var ops1 = document.getElementById("opList1").options[document.getElementById("opList1").options.selectedIndex].text;
+	var ops2 = document.getElementById("opList2").options[document.getElementById("opList2").options.selectedIndex].text;
+	var ops3 = document.getElementById("opList3").options[document.getElementById("opList3").options.selectedIndex].text;
 
 	var res = 0;
 
