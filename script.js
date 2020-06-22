@@ -53,13 +53,13 @@ function calculate (){
 	res = (res*c);
 	}
 
-	document.getElementById("result").text = res+"";
+	document.getElementById("result").text = res;
 	console.log(res);
 	
 }
 function clear (){
-	document.getElementById("result").text = null;
-	document.getElementById("first").text = null;
-	document.getElementById("second").text = null;
-	document.getElementById("third").text = null;
+	document.getElementById("result").text = "";
+	document.getElementById("first").text = "";
+	document.getElementById("second").text = "";
+	document.getElementById("third").text = "";
 }
