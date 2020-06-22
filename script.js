@@ -59,6 +59,9 @@ function calculate (){
 	}
 
 	document.getElementById("result").text = res;
+	console.log(a);
+	console.log(b);
+	console.log(c);
 	console.log(res);
 	
 }
