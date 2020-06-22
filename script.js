@@ -1,7 +1,7 @@
 function calculate(){
-	var a = +document.getElementById("first").value;
-	var b = +document.getElementById("second").value;
-	var c = +document.getElementById("third").value;
+	var a = +document.getElementById("first").text;
+	var b = +document.getElementById("second").text;
+	var c = +document.getElementById("third").text;
 	var ops = document.getElementByTegName("operation");
 	var ops1 = document.getElementById("opList1").text;
 	var ops2 = document.getElementById("opList2").text;
@@ -9,14 +9,14 @@ function calculate(){
 
 	var res = 0;
 
-	if (ops1 == "+") a = +document.getElementById("first").value;
-	else if (ops1=="-") a = -document.getElementById("first").value;
+	if (ops1 == "+") a = +document.getElementById("first").text;
+	else if (ops1=="-") a = -document.getElementById("first").text;
 	if (ops2 =="+"){
-	b = +document.getElementById("second").value;
+	b = +document.getElementById("second").text;
 	res += (a+b);
 }
 	else if (ops2 =="-"){
-	b = +document.getElementById("second").value;
+	b = +document.getElementById("second").text;
 	res += (a-b);
 }
 
@@ -28,7 +28,7 @@ function calculate(){
 	}
 
 	else if (ops2 =="*"){
-	b = +document.getElementById("second").value;
+	b = +document.getElementById("second").text;
 	res += (a*b);
 	}
 
