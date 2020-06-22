@@ -1,4 +1,5 @@
 function calculate(){
+	console.log("run calc")
 	var a = +document.getElementById("first").text;
 	var b = +document.getElementById("second").text;
 	var c = +document.getElementById("third").text;
