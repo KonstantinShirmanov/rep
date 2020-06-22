@@ -12,7 +12,7 @@ function calculate (){
 	var ops3 = document.getElementById("opList3").options[document.getElementById("opList3").options.selectedIndex].text;
 
 	var a = +astr;
-	var b +bstr;
+	var b = +bstr;
 	var c = +cstr;
 	var res = 0;
 
