@@ -53,7 +53,8 @@ function calculate (){
 	res += (res*c);
 	}
 
-	document.getElementById("result").text = ""+res;
+	document.getElementById("result").text = res+"";
+	console.log(res);
 	
 }
 function clear (){
