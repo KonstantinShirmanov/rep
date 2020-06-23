@@ -1,7 +1,9 @@
 
-function clear(){
+function clear (){
 
 	console.log("clear!");
+
+	document.f();
 
 	var inputs = document.querySelectorAll('input[type = text]');
 
@@ -9,6 +11,8 @@ function clear(){
 }
 
 function calculate (){
+
+
 	var astr = document.getElementById("first").value;
 	var bstr = document.getElementById("second").value;
 	var cstr = document.getElementById("third").value;
