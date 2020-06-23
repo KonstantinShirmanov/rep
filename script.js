@@ -1,4 +1,13 @@
 
+function clear (){
+
+	console.log("0");
+	document.getElementById("result").value = null;
+	document.getElementById("first").value = null;
+	document.getElementById("second").value = null;
+	document.getElementById("third").value = null;
+}
+
 function calculate (){
 	var astr = document.getElementById("first").value;
 	var bstr = document.getElementById("second").value;
@@ -60,12 +69,4 @@ function calculate (){
 
 	document.getElementById("result").value = res;
 	
-}
-function clear (){
-
-	console.log("чистка");
-	document.getElementById("result").value = null;
-	document.getElementById("first").value = null;
-	document.getElementById("second").value = null;
-	document.getElementById("third").value = null;
 }
