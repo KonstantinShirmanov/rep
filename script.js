@@ -3,13 +3,13 @@ function calculate (){
 	
 	
 
-	var astr = document.getElementById("first").text;
-	var bstr = document.getElementById("second").text;
-	var cstr = document.getElementById("third").text;
+	var astr = document.getElementById("first").value;
+	var bstr = document.getElementById("second").value;
+	var cstr = document.getElementById("third").value;
 
-	var ops1 = document.getElementById("opList1").options[document.getElementById("opList1").options.selectedIndex].text;
-	var ops2 = document.getElementById("opList2").options[document.getElementById("opList2").options.selectedIndex].text;
-	var ops3 = document.getElementById("opList3").options[document.getElementById("opList3").options.selectedIndex].text;
+	var ops1 = document.getElementById("opList1").options[document.getElementById("opList1").options.selectedIndex].value;
+	var ops2 = document.getElementById("opList2").options[document.getElementById("opList2").options.selectedIndex].value;
+	var ops3 = document.getElementById("opList3").options[document.getElementById("opList3").options.selectedIndex].value;
 
 
 	console.log("astr = " + astr);
@@ -61,12 +61,12 @@ function calculate (){
 	res = res*c;
 	}
 
-	document.getElementById("result").text = res;
+	document.getElementById("result").value = res;
 	
 }
 function clear (){
-	document.getElementById("result").text = "";
-	document.getElementById("first").text = "";
-	document.getElementById("second").text = "";
-	document.getElementById("third").text = "";
+	document.getElementById("result").value = "";
+	document.getElementById("first").value = "";
+	document.getElementById("second").value = "";
+	document.getElementById("third").value = "";
 }
