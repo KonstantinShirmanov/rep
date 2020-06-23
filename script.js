@@ -11,6 +11,9 @@ function calculate (){
 	var ops2 = document.getElementById("opList2").options[document.getElementById("opList2").options.selectedIndex].text;
 	var ops3 = document.getElementById("opList3").options[document.getElementById("opList3").options.selectedIndex].text;
 
+
+	console.log("astr = "+ astr);
+
 	var a = Number.parseFloat(astr);
 	var b = Number.parseFloat(bstr);
 	var c = Number.parseFloat(cstr);
