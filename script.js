@@ -62,6 +62,8 @@ function calculate (){
 	
 }
 function clear (){
+
+	console.log("чистка");
 	document.getElementById("result").value = null;
 	document.getElementById("first").value = null;
 	document.getElementById("second").value = null;
