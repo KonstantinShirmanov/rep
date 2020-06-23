@@ -1,9 +1,9 @@
 
-function clear (){
+function ce (){
 
 	console.log("clear!");
 
-	document.f();
+
 
 	var inputs = document.querySelectorAll('input[type = text]');
 
