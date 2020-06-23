@@ -1,7 +1,9 @@
 
 function clear(){
 
-	var inputs = querySelectionAll('input[type="text]');
+	console.log("clear!");
+
+	var inputs = document.querySelectorAll('input[type = text]');
 
 	for (var i = 0; i< inputs.length; i++) inputs[i].value = "";
 }
