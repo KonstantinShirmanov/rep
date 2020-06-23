@@ -24,7 +24,6 @@ function calculate (){
 	var b = Number.parseFloat(bstr);
 	var c = Number.parseFloat(cstr);
 
-	console.log()
 	var res = 0;
 
 	if (ops1 == "+") a = a;
