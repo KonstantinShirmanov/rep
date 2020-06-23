@@ -1,5 +1,5 @@
 
-function clear (){
+function clear(){
 
 	var inputs = querySelectionAll('input[type="text]');
 
@@ -16,7 +16,7 @@ function calculate (){
 	var ops3 = document.getElementById("opList3").options[document.getElementById("opList3").options.selectedIndex].value;
 
 
-	console.log("astr = " + astr);
+	console.log("calculate!");
 
 	var a = Number.parseFloat(astr);
 	var b = Number.parseFloat(bstr);
