@@ -12,7 +12,7 @@ function calculate (){
 	var ops3 = document.getElementById("opList3").options[document.getElementById("opList3").options.selectedIndex].text;
 
 
-	console.log("astr = "+ astr);
+	console.log("astr = " + astr);
 
 	var a = Number.parseFloat(astr);
 	var b = Number.parseFloat(bstr);
