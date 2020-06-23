@@ -1,11 +1,9 @@
 
 function clear (){
 
-	console.log("0");
-	document.getElementById("result").value = null;
-	document.getElementById("first").value = null;
-	document.getElementById("second").value = null;
-	document.getElementById("third").value = null;
+	var inputs = querySelectionAll('input[type="text]');
+
+	for (var i = 0; i< inputs.length; i++) inputs[i].value = "";
 }
 
 function calculate (){
